@@ -1,0 +1,72 @@
+#include<stdio.h>
+main()
+{
+int a,b;
+
+printf("WELCOME TO THE QUIZ\n\n\n");
+printf("THE FIRST QUESTION IS = \n");
+printf("(1) WHAT IS THE NATIONAL ANTHEM OF INDIA ?");
+printf("\n\nYOUR OPTION ARE = \n");
+printf("\n(1) VANDE MAATARAM                      (3)JANA GAANA MANA\n");
+printf("\n(2) SAARE JAA SE ACCHA                  (4)AA VAATAN\n\n ");
+scanf("%d",&a);
+if (a==3){
+
+printf("THE ANSWER IS CORRECT.\n\n\n\n");
+b++;}
+else
+ {
+printf("THE ANSWER IS WRONG.\n\n\n\n\n");}
+
+printf("THE SECOND QUESTION IS = \n");
+printf("(1) WHAT IS THE NATIONAL BIRD OF INDIA ?");
+printf("\n\nYOUR OPTION ARE = \n");
+printf("\n(1) PEACOCK                 (3)HEN\n");
+printf("\n(2) COCK                    (4)PEAHEN\n\n ");
+scanf("%d",&a);
+if (a==1){
+
+printf("THE ANSWER IS CORRECT.\n\n\n\n");
+b++;}
+else
+ {
+printf("THE ANSWER IS WRONG.\n\n\n\n\n");}
+printf("THE THIRD QUESTION IS = \n");
+printf("(1) WHAT IS THE NATIONAL FLOWER OF INDIA ?");
+printf("\n\nYOUR OPTION ARE = \n");
+printf("\n(1) HIBBISCUS                  (3)SUNFLOWER\n");
+printf("\n(2) MARIGOLD                   (4)LOTUS\n\n ");
+scanf("%d",&a);
+if (a==4){
+
+printf("THE ANSWER IS CORRECT.\n\n\n\n");
+b++;}
+else
+{
+  printf("THE ANSWER IS WRONG.\n\n\n\n");}
+printf("THE FOURTH QUESTION IS = \n");
+printf("(4)WHO IS THE PRESIDENT OF INDIA ?");
+printf("\n\nYOUR OPTION ARE = \n");
+printf("\n(1)PRANAB MUKERJEE                 (3)PRATIBA PATAL\n");
+printf("\n(2)DROUPADI MURMU                  (4)RAJENDRA PRASAD\n\n ");
+scanf("%d",&a);
+if (a==2){
+
+printf("THE ANSWER IS CORRECT.\n\n\n\n\n");
+b++;}
+else
+{
+  printf("THE ANSWER IS WRONG.\n\n\n\n\n");
+  
+  }
+ {
+   printf("THANK YOU .........\n\n\n\n");}
+ 
+ 
+  for (int i=0;i<1;i++){
+  
+   if(i<2)
+   printf("CONGRATULATION YOU SCORED = %d",b);
+   else 
+   printf("\n\n\nYOU SCORED = %d.\n\nBETTER LUCK NEXT TIME",b);}
+}
